@@ -16,11 +16,14 @@ It is composed by a menu and a game called Meteorite shower, an imitation of Spa
       - Difficulty (3 types: low, medium, high)
       The difficulty setting is very important. Below, it is explained how difficulty influenced the game:
       
-      | LOW | |  MEDIUM || HIGH  ||
-      | :---:  | :---: |     :---: | :---:     |   :---:     |   :---: |
-      | Step 0 |  Step 1 |  Step 0 |  Step 1 | Step 0 | Step 1 | 
-      | :---: | :---: | :---: | :---: | :---: | :---: | 
-      | git status 1  | git status 2    | git status 3   | git status 4  |git status 5   | git status 6   |
+     | | LOW | |  MEDIUM || HIGH  ||
+     | | :---:  | :---: |     :---: | :---:     |   :---:     |   :---: |
+     |Step | Step 0 |  Step 1 |  Step 0 |  Step 1 | Step 0 | Step 1 | 
+     |Points for destroy a meteorite | 1 | 1| 2 | 2| 3 |3 |
+     |Interval of occurrence of meteorites| 4s | 3s | 3s | 2s| 2s|2s|
+     |Number of meteorites per occurrence| 1| 1| 2| 2 | 3 |3 |
+     |Number of lives of a meteorite | 1 |1 | 1 |1 |1 |2
+     |Laser shoot | - | -| - |- | - | one after killing 6 meteorites|
       
 ## Used components
 ---
