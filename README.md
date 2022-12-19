@@ -8,10 +8,10 @@ It is composed by a menu and a game called `Meteorite shower`, an imitation of S
 1. <i>Menu Requirements</i>: 
   - Intro message "Meteorite shower" (game name) that is shown for 4s. In this time, on matrix is display a "HI" message.
   - After waiting 4s, the main menu is displayed:
-    a. ###Start game###
-    b. ###Leaderboard###: </br>
+    a. **Start game**
+    b. **Leaderboard**: </br>
     If the joystick button is pressed, a list of at most 5 player name - player score appears. If no one played before/the leaderboard was reseted, instead of the list, appers a message "Nothing here...". To return to the menu, the player must press the joystick button. 
-    c. ###Settings###: displays a new menu
+    c. **Setting**: displays a new menu
       - <b>Enter name</b>: the player has the option to insert his name from menu and play multiple games with that chosen name, without been ask to set his name repeatedly.
       - <b>Difficulty</b> (3 types: low, medium, high) </br>
       The difficulty setting is very important. By default, the difficulty is set as LOW. </br>
@@ -19,7 +19,7 @@ It is composed by a menu and a game called `Meteorite shower`, an imitation of S
       
      | Difficulty | LOW | |  MEDIUM || HIGH  ||
      | :---: | :---:  | :---: |     :---: | :---:     |   :---:     |   :---: |
-     |<<b>Step</b> | Step 0 |  Step 1 |  Step 0 |  Step 1 | Step 0 | Step 1 | 
+     |<b>Step</b> | Step 0 |  Step 1 |  Step 0 |  Step 1 | Step 0 | Step 1 | 
      |<b>Points for destroy a meteorite</b> | 1 | 1| 2 | 2| 3 |3 |
      |<b>Interval of occurrence of meteorites</b>| 4s | 3s | 3s | 2s| 2s|2s|
      |<b>Number of meteorites per occurrence</b>| 1| 1| 2| 2 | 3 |3 |
@@ -33,13 +33,13 @@ It is composed by a menu and a game called `Meteorite shower`, an imitation of S
         In menu, sound ON means that it is heard a sound when the joystick is moved up-down-left-right and another sound for moving the joystick in a direction thta can not be moved.
       - <b>Reset hscore</b>: the list of scores from leaderboard from main menu is deleted (if it is clicked on Leaderboard it will display the message "Nothing here...")
       - Press to exit: by pressing the joystick, we return to the main menu 
-    d. About: displays details:
+   d. About: displays details:
       -  `Game: Meteorite shower`
       -  `Author: Denisa Predescu`
       -  `GitHub: https://github.com/denisapredescu/Meteorite-shower` (link to this repo)
       -  `Project for Introduction to Robotics, Unibuc`
       -  Prees to exit - button
-    e. How to play: displays a mini description about the game
+   e. How to play: displays a mini description about the game
       `The earth is under a meteorite shower and we are the last hope for the humanity! 
        Destroy the meteorites before they hit earth. 
        The  difficulty increases as more enemies are killed. 
