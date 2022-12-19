@@ -17,7 +17,7 @@ It is composed by a menu and a game called Meteorite shower, an imitation of Spa
       The difficulty setting is very important. Below, it is explained how difficulty influenced the game:
       
       | LOW | MEDIUM | HIGH |
-      | :---:         |     :---:      |          :---: |
+      | :---:   :---:       |     :---:  :---:     |   :---:        :---: |
       | Step 0 |  Step 1 |  Step 0 |  Step 1 | Step 0 | Step 1 | 
       | :---: | :---: | :---: | :---: | :---: | :---: | 
       | git status 1  | git status 2    | git status 3   | git status 4  |git status 5   | git status 6   |
