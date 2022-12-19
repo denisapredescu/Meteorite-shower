@@ -10,34 +10,35 @@ I build it in steps: first it was important to have a moving destroyer (moved by
 
 ## How to navigate through the menu
 At first it is displayed a intro message "Meteorite shower" (game name) that is shown for 4s. In this time, on matrix is displayed a "HI" message. After those 4s, the main menu appears and every section of this menu has a different image on matrix):
-    - **Start game**
-    - **Leaderboard**: </br>
-    If the joystick button is pressed, a list of at most 5 player - score pairs appears. </br>
-    If no one played before/the leaderboard was reseted, instead of the list, appears the message "Nothing here...". </br>
-    To return to the menu, the player must press the joystick button. 
-    - **Setting**: displays a new menu
-      - <b>Enter name</b>: the player has the option to insert his name from menu and play multiple games with that chosen name, without been ask to set his name repeatedly.
-      - <b>Difficulty</b>: the player can choose between low, medium and high. </br>
-        By default, the difficulty is set as LOW. </br>
-      - <b>LCD contrast control</b>: can take 6 values: 25, 50, 75, 100, 125, 150. The chosen value is saved to EEPROM.
-      - <b>LCD brightness contol</b>: can take 6 values: 0, 51, 102, 153, 204, 255. The chosen value is saved to EEPROM.
-      - <b>Matrix brightness control</b>: can take 6 values: 0, 3, 6, 9, 12, 15. The chosen value is saved to EEPROM.
-      - <b>Sound</b>: ON/OFF (the chosen value is saved to EEPROM.) </br>
-        In menu, sound ON means that it is heard a sound when the joystick is moved up-down-left-right and another sound for moving the joystick in a direction that can not be moved.
-      - <b>Reset hscore</b>: the list of scores from leaderboard from main menu is reset (now if it is clicked on Leaderboard it will display the message "Nothing here...")
-      - Press to exit: by pressing the joystick, we return to the main menu 
-    - **About**: displays the below details:
-       > Game: Meteorite shower </br>
-       Author: Denisa Predescu </br>
-       GitHub: https://github.com/denisapredescu/Meteorite-shower (link to this repo) </br>
-       Project for Introduction to Robotics, Unibuc </br>
-       Prees to exit - button that returns to main manu
-    - **How to play**: displays a mini description about the game </br>
-      >The earth is under a meteorite shower and we are the last hope for the humanity! </br>
-       Destroy the meteorites before they hit earth! </br>
-       The difficulty increases as more enemies are killed. </br>
-       You have 3 lives. If you die, the game restarts at the first step of the current difficulty.
-  - Extra: added a potentiometer to decrease/increase the volume of the sound
+
+- **Start game**
+- **Leaderboard**: </br>
+If the joystick button is pressed, a list of at most 5 player - score pairs appears. </br>
+If no one played before/the leaderboard was reseted, instead of the list, appears the message "Nothing here...". </br>
+To return to the menu, the player must press the joystick button. 
+- **Setting**: displays a new menu
+  - <b>Enter name</b>: the player has the option to insert his name from menu and play multiple games with that chosen name, without been ask to set his name repeatedly.
+  - <b>Difficulty</b>: the player can choose between low, medium and high. </br>
+    By default, the difficulty is set as LOW. </br>
+  - <b>LCD contrast control</b>: can take 6 values: 25, 50, 75, 100, 125, 150. The chosen value is saved to EEPROM.
+  - <b>LCD brightness contol</b>: can take 6 values: 0, 51, 102, 153, 204, 255. The chosen value is saved to EEPROM.
+  - <b>Matrix brightness control</b>: can take 6 values: 0, 3, 6, 9, 12, 15. The chosen value is saved to EEPROM.
+  - <b>Sound</b>: ON/OFF (the chosen value is saved to EEPROM.) </br>
+    In menu, sound ON means that it is heard a sound when the joystick is moved up-down-left-right and another sound for moving the joystick in a direction that can not be moved.
+  - <b>Reset hscore</b>: the list of scores from leaderboard from main menu is reset (now if it is clicked on Leaderboard it will display the message "Nothing here...")
+  - Press to exit: by pressing the joystick, we return to the main menu 
+- **About**: displays the below details:
+   > Game: Meteorite shower </br>
+   Author: Denisa Predescu </br>
+   GitHub: https://github.com/denisapredescu/Meteorite-shower (link to this repo) </br>
+   Project for Introduction to Robotics, Unibuc </br>
+   Prees to exit - button that returns to main manu
+- **How to play**: displays a mini description about the game </br>
+  >The earth is under a meteorite shower and we are the last hope for the humanity! </br>
+   Destroy the meteorites before they hit earth! </br>
+   The difficulty increases as more enemies are killed. </br>
+   You have 3 lives. If you die, the game restarts at the first step of the current difficulty.
+- Extra: added a potentiometer to decrease/increase the volume of the sound
 
 ## Game description
 Meteorite shower is a very intuitive and fun to play game: the player need to destroy as many meteorites as he can in order to prevent the meteorites from killing him. </br>
@@ -133,13 +134,10 @@ After the game ends, it's displayed the blinking message "GAME OVER" and the acu
 - How to play - image of an question mark
   ![WhatsApp Image 2022-12-19 at 21 03 49 (1)](https://user-images.githubusercontent.com/86727047/208515304-54bbcffd-1ca1-4804-905e-34a556bc74ae.jpeg)
 
-  
-  
-
-
-  
-  
-  
+- Sad face
+    
+- Happy face 
+    
 </details>
 
 
