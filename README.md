@@ -2,13 +2,15 @@
 
 The matrix project is made for Introduction to Robotics course, 3rd year at the Faculty of Matematics and Computer Science, University of Bucharest.
 
-## Backstory
+## Backstory ##
 The game i made is called `Meteorite shower` and it's inspired from Space Invader. The main idea of the game is to hit the meteorites that appears from the upper side of the matrix. </br>
+ </br>
 I chose this game because I was very excited when I saw it and I thought it was interesting to try to create it from scratch and make it as fun as possible to play. </br>
-I build it in steps: first it was important to have a moving destroyer (moved by the joystick) and meteorites that appear random at an interval of time. From there it was easier to implement the ideas. The difficulties are basically changing the number of meteorites that come it once, the duration of an interval, the number of meteorites life and the points gained from destroying a meteorites.
+ </br>
+I build it in steps: first it was important to have a moving destroyer (moved by the joystick) and meteorites that appear random at an interval of time. From there it was easier to implement the ideas. Changing the difficulty is basically changing the number of meteorites that come at once, the interval of their appearance, the number of lives of the meteorites and the points gained from destroying them.
 
 
-## How to navigate through the menu
+## How to navigate through the menu ##
 At first it is displayed a intro message `Meteorite shower` (game name) that is shown for 4s. In this time, on matrix is displayed a "HI" message. After those 4s, the main menu appears and every section of this menu has a different image on matrix):
 
 - **Start game**
@@ -37,13 +39,13 @@ To return to the menu, the player must press the joystick button.
    Destroy the meteorites before they hit earth! </br>
    The difficulty increases as more enemies are killed. </br>
    You have 3 lives. If you die, the game restarts at the first step of the current difficulty.
-- Extra: added a potentiometer to decrease/increase the volume of the sound
+- Extra: added a potentiometer to decrease/increase the sound volume.
 
-## Game description
+## Game description ##
 Meteorite shower is a very intuitive and fun to play game: the player need to destroy as many meteorites as he can in order to prevent the meteorites from killing him. </br>
 </br>
- Below it is explained how difficulty influenced the game: </br>
-  </br>
+ Below it is explained how the difficulty modifies the game: </br>
+ </br>
   
  | Difficulty | LOW ||  MEDIUM || HIGH  ||
  | :---: | :---:  | :---: | :---: | :---: | :---: | :---: |
@@ -56,19 +58,20 @@ Meteorite shower is a very intuitive and fun to play game: the player need to de
  |<b>Laser shot</b> | - | -| - |- | - | one shot after killing 6 meteorites |
  |<b>Boss fight</b>| - | - | just if the player ends the difficulty low | - | just if the player ends the difficulty medium | for every 30+ killed meteorites |  
  </br>
-The difficulty can be seen as a level, so every difficulty end with a boss fight which is harder to beat as difficulty increases (at the first boss, the player has time to shoot it before it comes closer; at the second, the time is less and the third boss - the one which comes repeatedly - is hardest because every piece of it needs 2 bullets to destroy). </br>
- </br>
- While playing, on LCD is displayed the player name (the one he chosed in settings or the dummy name `PLAYR`), the difficulty, the number of lives left and the score. Additionally, in the last step of the game, when the player has the ability to laser shot, appears an 'L' to indicate that the next bullet is a laser. 
-   </br>
+The difficulty can be seen as a level, so every difficulty end with a boss fight which is harder to beat as difficulty increases (at the first boss, the player has time to shoot it before it comes closer; at the second, the time is less and the third boss - the one which comes repeatedly - is the hardest because every piece of it needs 2 bullets to destroy). </br>
+</br>
+ While playing, on LCD is displayed the player name (the one he chosed in settings or the dummy name `PLAYR`), the difficulty, the number of lives left and the score. Additionally, in the last step of the game, when the player has the ability to laser shot, appears an 'L' to indicate that the next bullet is a laser. </br>
    </br>
 After the game ends, it's displayed the blinking message "GAME OVER" and the acumulated score for a few seconds and the player sees a sad face on the matrix. If the score is not higher then one from the leaderboard, the message `Your score is not good enought` is shown to inform the player. If the score is top 5 appears a happy face on matrix and firstly the player has to insert a player name in case if he did not do this in settings, secondly if is number 1, he will see the message `You made it! Highest score!` and if is just on top 5 - `You made it! Top 5! :)`. </br>
  </br>
  The game have basic sounds: when hit a meteorite, when dying, when the difficulty is increased, when the game is over.
 
 
-## How to play
+## How to play ##
  Playing is simple: press the button to shoot and move the joystick left-right to move the destroyer. </br>
+  </br>
  The game forces the player to move faster as the difficulty increases and to play smart when the boss scene is on.  </br>
+ </br>
  At the final step of difficulty HIGH, the player needs to pay attention to the display to see when the "L" appears (meaning that the next bullet is a laser shot)   </br>
  
  <details><summary>See how the LCD looks like while playing</summary>
@@ -82,8 +85,7 @@ After the game ends, it's displayed the blinking message "GAME OVER" and the acu
 </details>
   
   
- <details><summary><h2>Used components</h2>
-  ---</summary>
+ ## Used components ##
   
 - Arduino Uno board
 - LCD 
@@ -96,8 +98,6 @@ After the game ends, it's displayed the blinking message "GAME OVER" and the acu
 - 2 resistors
 - cables
 - 2 breadboards
-
-</details>
 
 
 <details><summary><h2>Picture of the setup</h2></summary>
