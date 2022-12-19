@@ -40,6 +40,8 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
   - After the game ends, it's displayed the blinking message "GAME OVER" and the acumulated score for a few seconds. If the score is not higher then one from the leaderboard, the message `Your score is not good enought` is shown to inform the player. If the score is top 5, firstly the player has to insert a player name in case if he did not do this in settings, secondly if is number 1, he will see the message `You made it! Highest score!` and if is just on top 5 - `You made it! Top 5! :)`. </br>
 
 2. <i>Game</i> 
+  </br>
+  </br>
   Meteorite shower is a very intuitive and fun to play game: the player need to destroy as many meteorites as he can in order to prevent the meteorites from killing him. </br>
   </br>
   Playing is simple: press the button to shoot and move the joystick left-right to move the destroyer. </br>
@@ -48,6 +50,7 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
   </br>
   Below it is explained how difficulty influenced the game: </br>
   </br>
+  
  | Difficulty | LOW ||  MEDIUM || HIGH  ||
  | :---: | :---:  | :---: | :---: | :---: | :---: | :---: |
  |<b>Step</b> | Step 0 |  Step 1 |  Step 0 |  Step 1 | Step 0 | Step 1 | 
