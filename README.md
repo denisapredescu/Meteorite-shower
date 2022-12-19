@@ -53,7 +53,7 @@ Meteorite shower is a very intuitive and fun to play game: the player need to de
  |<b>Interval of occurrence of meteorites</b>| 4s | 3s | 3s | 2s| 2s|2s|
  |<b>Number of meteorites per occurrence</b>| 1| 1| 2| 2 | 3 |3 |
  |<b>Number of lives of a meteorite</b> | 1 |1 | 1 |1 |1 |2|
- |<b>Number of killed meteorites in order to increase the difficulty</b>| 10 | 10 | 20 | 20 | 30 | - |
+ |<b>Number of killed meteorites in order to increase the step/difficulty</b>| 10 | 10 | 20 | 20 | 30 | - |
  |<b>Laser shot</b> | - | -| - |- | - | one shot after killing 6 meteorites |
  |<b>Boss fight</b>| - | - | just if the player ends the difficulty low | - | just if the player ends the difficulty medium | for every 30+ killed meteorites |  
  </br>
