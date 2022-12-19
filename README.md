@@ -135,9 +135,11 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
   ![WhatsApp Image 2022-12-19 at 21 03 49 (1)](https://user-images.githubusercontent.com/86727047/208515304-54bbcffd-1ca1-4804-905e-34a556bc74ae.jpeg)
 
 - Sad face
+ ![WhatsApp Image 2022-12-20 at 00 02 39 (1)](https://user-images.githubusercontent.com/86727047/208547474-808b7df4-7e2c-4edb-891f-4f394c8d74d5.jpeg)
     
 - Happy face 
-    
+ ![WhatsApp Image 2022-12-20 at 00 02 39](https://user-images.githubusercontent.com/86727047/208547487-a8245e2e-6c9e-406b-8f88-075e8396373d.jpeg)
+
 </details>
 
 ## Link to video showcasting functionality :video_camera:
