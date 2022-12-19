@@ -40,7 +40,7 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
   - After the game ends, it's displayed the blinking message "GAME OVER" and the acumulated score for a few seconds. If the score is not higher then one from the leaderboard, the message `Your score is not good enought` is shown to inform the player. If the score is top 5, firstly the player has to insert a player name in case if he did not do this in settings, secondly if is number 1, he will see the message `You made it! Highest score!` and if is just on top 5 - `You made it! Top 5! :)`. </br>
 
 2. <i>Game</i> 
-  </br>
+  
   Meteorite shower is a very intuitive and fun to play game: the player need to destroy as many meteorites as he can in order to prevent the meteorites from killing him. </br>
   </br>
   Playing is simple: press the button to shoot and move the joystick left-right to move the destroyer. </br>
@@ -61,7 +61,7 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
  |<b>Laser shot</b> | - | -| - |- | - | one shot after killing 6 meteorites|
  |<b>Boss fight</b>| - | - | just if the player ends the difficulty low | - | just if the player ends the difficulty medium | for every 30+ killed meteorites |  
  </br>
- The game have basic sounds when hit a meteorite, when dying, when the difficulty is increased, when the game is over.
+ The game have basic sounds: when hit a meteorite, when dying, when the difficulty is increased, when the game is over.
  </br>
  
 ## Used components
@@ -80,7 +80,7 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
 
 ## Pictures of the setup
 
-## Pictures of the matrix images
+## Pictures of the matrix images when navigate through menu
 
 ## Link to video showcasting functionality
 
