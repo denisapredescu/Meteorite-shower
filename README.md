@@ -9,20 +9,19 @@ I build it in steps: first it was important to have a moving destroyer (moved by
 
 
 ## How to navigate through the menu
-At first it is displayed a intro message "Meteorite shower" (game name) that is shown for 4s. In this time, on matrix is displayed a "HI" message. After those 4s, the main menu appears and every section of this menu has a different image on matrix):
+At first it is displayed a intro message `Meteorite shower` (game name) that is shown for 4s. In this time, on matrix is displayed a "HI" message. After those 4s, the main menu appears and every section of this menu has a different image on matrix):
 
 - **Start game**
-- **Leaderboard**: </br>
-If the joystick button is pressed, a list of at most 5 player - score pairs appears. </br>
+- **Leaderboard**: appears a list of at most 5 player - score pairs. </br>
 If no one played before/the leaderboard was reseted, instead of the list, appears the message "Nothing here...". </br>
 To return to the menu, the player must press the joystick button. 
 - **Setting**: displays a new menu
   - <b>Enter name</b>: the player has the option to insert his name from menu and play multiple games with that chosen name, without been ask to set his name repeatedly.
   - <b>Difficulty</b>: the player can choose between low, medium and high. </br>
     By default, the difficulty is set as LOW. </br>
-  - <b>LCD contrast control</b>: can take 6 values: 25, 50, 75, 100, 125, 150. The chosen value is saved to EEPROM.
-  - <b>LCD brightness contol</b>: can take 6 values: 0, 51, 102, 153, 204, 255. The chosen value is saved to EEPROM.
-  - <b>Matrix brightness control</b>: can take 6 values: 0, 3, 6, 9, 12, 15. The chosen value is saved to EEPROM.
+  - <b>LCD contrast control</b>: can take 5 values: 30, 50, 70, 90, 110. The chosen value is saved to EEPROM.
+  - <b>LCD brightness contol</b>: can take 5 values: 51, 102, 153, 204, 255. The chosen value is saved to EEPROM.
+  - <b>Matrix brightness control</b>: can take 5 values: 3, 6, 9, 12, 15. The chosen value is saved to EEPROM.
   - <b>Sound</b>: ON/OFF (the chosen value is saved to EEPROM.) </br>
     In menu, sound ON means that it is heard a sound when the joystick is moved up-down-left-right and another sound for moving the joystick in a direction that can not be moved.
   - <b>Reset hscore</b>: the list of scores from leaderboard from main menu is reset (now if it is clicked on Leaderboard it will display the message "Nothing here...")
@@ -114,7 +113,7 @@ After the game ends, it's displayed the blinking message "GAME OVER" and the acu
 </details>
 
 
-<details><summary><b>Pictures of the matrix images</b></summary>
+<details><summary><h2>Pictures of the matrix images</h2></summary>
   
 - Greeting message
   ![3](https://user-images.githubusercontent.com/86727047/208514716-ef03b4a9-e1fe-4a99-9596-0920936ebc0c.jpeg)
