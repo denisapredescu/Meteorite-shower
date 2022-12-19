@@ -41,7 +41,6 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
 
 2. <i>Game</i> 
   </br>
-  </br>
   Meteorite shower is a very intuitive and fun to play game: the player need to destroy as many meteorites as he can in order to prevent the meteorites from killing him. </br>
   </br>
   Playing is simple: press the button to shoot and move the joystick left-right to move the destroyer. </br>
@@ -61,7 +60,6 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
  |<b>Number of killed meteorites in order to increase the difficulty</b>| 10 | 10 | 20 | 20 | 30 | - |
  |<b>Laser shot</b> | - | -| - |- | - | one shot after killing 6 meteorites|
  |<b>Boss fight</b>| - | - | just if the player ends the difficulty low | - | just if the player ends the difficulty medium | for every 30+ killed meteorites |  
- </br>
  </br>
  The game have basic sounds when hit a meteorite, when dying, when the difficulty is increased, when the game is over.
  </br>
