@@ -1,19 +1,17 @@
 # Meteorite shower
 
 ## Introduction 
----
 The project is made for Introduction to Reobotics course, 3rd year at the Faculty of Matematics and Computer Science, University of Bucharest.
-It is composed by a menu and a game called Meteorite shower, an imitation of Space Invasion recreated on a 8X8 led matrix.
+It is composed by a menu and a game called `Meteorite shower`, an imitation of Space Invasion recreated on a 8X8 led matrix.
 
 ## Task Requirements
----
 1. <i>Menu Requirements</i>: 
   - Intro message "Meteorite shower" (game name) that is shown for 4s. In this time, on matrix is display a "HI" message.
   - After waiting 4s, the main menu is displayed:
-    a. <b>Start game</b>
-    b. <b>Leaderboard</b>: </br>
+    a. ###Start game###
+    b. ###Leaderboard###: </br>
     If the joystick button is pressed, a list of at most 5 player name - player score appears. If no one played before/the leaderboard was reseted, instead of the list, appers a message "Nothing here...". To return to the menu, the player must press the joystick button. 
-    c. <b>Settings</b>: displays a new menu
+    c. ###Settings###: displays a new menu
       - <b>Enter name</b>: the player has the option to insert his name from menu and play multiple games with that chosen name, without been ask to set his name repeatedly.
       - <b>Difficulty</b> (3 types: low, medium, high) </br>
       The difficulty setting is very important. By default, the difficulty is set as LOW. </br>
