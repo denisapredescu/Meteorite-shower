@@ -82,7 +82,8 @@ After the game ends, it's displayed the blinking message "GAME OVER" and the acu
 </details>
   
   
- <details><summary><b>Used components</b></summary>
+ <details><summary><h2>Used components</h2>
+  ---</summary>
   
 - Arduino Uno board
 - LCD 
@@ -99,7 +100,7 @@ After the game ends, it's displayed the blinking message "GAME OVER" and the acu
 </details>
 
 
-<details><summary><b>Picture of the setup</b></summary>
+<details><summary><h2>Picture of the setup</h2></summary>
   
  ![WhatsApp Image 2022-12-19 at 21 03 48 (1)](https://user-images.githubusercontent.com/86727047/208517545-a2bccbd4-e617-44d8-a451-99e10891f85b.jpeg)
 
