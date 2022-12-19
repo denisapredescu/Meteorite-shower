@@ -16,8 +16,8 @@ It is composed by a menu and a game called Meteorite shower, an imitation of Spa
       - Difficulty (3 types: low, medium, high)
       The difficulty setting is very important. Below, it is explained how difficulty influenced the game:
       
-     | | LOW | |  MEDIUM || HIGH  ||
-     | | :---:  | :---: |     :---: | :---:     |   :---:     |   :---: |
+     | Difficulty | LOW | |  MEDIUM || HIGH  ||
+     | :---: | :---:  | :---: |     :---: | :---:     |   :---:     |   :---: |
      |Step | Step 0 |  Step 1 |  Step 0 |  Step 1 | Step 0 | Step 1 | 
      |Points for destroy a meteorite | 1 | 1| 2 | 2| 3 |3 |
      |Interval of occurrence of meteorites| 4s | 3s | 3s | 2s| 2s|2s|
