@@ -1,4 +1,4 @@
-# Meteorite shower
+# Meteorite shower :space_invader: :sweat_drops: 
 
 The matrix project is made for Introduction to Robotics course, 3rd year at the Faculty of Matematics and Computer Science, University of Bucharest.
 
@@ -114,7 +114,6 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
   
 </details>
 
-
 <details><summary><h2>Pictures of the matrix images</h2> :camera_flash: :framed_picture: </summary>
   
 - Greeting message - 'hi' message
@@ -140,7 +139,6 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
 - Happy face 
     
 </details>
-
 
 ## Link to video showcasting functionality :video_camera:
 
