@@ -5,7 +5,7 @@ The project is made for Introduction to Reobotics course, 3rd year at the Facult
 It is composed by a menu and a game called `Meteorite shower`, similar to Space Invader recreated on a 8X8 led matrix.
 
 ## Task Requirements
-1. <i>Game menu</i>: 
+1. <i>Game menu</i>
   - Intro message "Meteorite shower" (game name) that is shown for 4s. In this time, on matrix is displayed a "HI" message.
   - Main menu (every section of this menu has a different image on matrix):
     - **Start game**
@@ -38,8 +38,8 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
   - Extra: added a potentiometer to decrease/increase the volume of the sound
   - While playing, on LCD is displayed the player name (the one he chosed in settings or the dummy name `PLAYR`), the difficulty, the number of lives left and the score. Additionally, in the last step of the game, when the player has the ability to laser shot, appears an 'L' to indicate that the next bullet is a laser. 
   - After the game ends, it's displayed the blinking message "GAME OVER" and the acumulated score for a few seconds. If the score is not higher then one from the leaderboard, the message `Your score is not good enought` is shown to inform the player. If the score is top 5, firstly the player has to insert a player name in case if he did not do this in settings, secondly if is number 1, he will see the message `You made it! Highest score!` and if is just on top 5 - `You made it! Top 5! :)`. </br>
- 
-2. <i>Game</i> </br>
+
+2. <i>Game</i> 
   Meteorite shower is a very intuitive and fun to play game: the player need to destroy as many meteorites as he can in order to prevent the meteorites from killing him. </br>
   </br>
   Playing is simple: press the button to shoot and move the joystick left-right to move the destroyer. </br>
