@@ -2,12 +2,12 @@
 
 ## Introduction 
 The project is made for Introduction to Reobotics course, 3rd year at the Faculty of Matematics and Computer Science, University of Bucharest.
-It is composed by a menu and a game called `Meteorite shower`, similar to Space Invader recreated on a 8X8 matrix.
+It is composed by a menu and a game called `Meteorite shower`, similar to Space Invader recreated on a 8X8 led matrix.
 
 ## Task Requirements
 1. <i>Game menu</i>: 
-  - Intro message "Meteorite shower" (game name) that is shown for 4s. In this time, on matrix is display a "HI" message.
-  - After waiting 4s, the main menu is displayed:
+  - Intro message "Meteorite shower" (game name) that is shown for 4s. In this time, on matrix is displayed a "HI" message.
+  - Main menu (every section of this menu has a different image on matrix):
     - **Start game**
     - **Leaderboard**: </br>
     If the joystick button is pressed, a list of at most 5 player - score pairs appears. </br>
@@ -71,12 +71,15 @@ It is composed by a menu and a game called `Meteorite shower`, similar to Space 
 - joystick
 - buzzer
 - potentiometer for volume
+- button
 - 2 resistors
 - cables
 - 2 breadboards
-- button
+
 
 ## Pictures of the setup
+
+## Pictures of the matrix images
 
 ## Link to video showcasting functionality
 
