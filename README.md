@@ -33,13 +33,13 @@ It is composed by a menu and a game called `Meteorite shower`, an imitation of S
         In menu, sound ON means that it is heard a sound when the joystick is moved up-down-left-right and another sound for moving the joystick in a direction thta can not be moved.
       - <b>Reset hscore</b>: the list of scores from leaderboard from main menu is deleted (if it is clicked on Leaderboard it will display the message "Nothing here...")
       - Press to exit: by pressing the joystick, we return to the main menu 
-   - About: displays details:
-      -  `Game: Meteorite shower`
-      -  `Author: Denisa Predescu`
+    - About: displays details:
+       > Game: Meteorite shower
+       > Author: Denisa Predescu
       -  `GitHub: https://github.com/denisapredescu/Meteorite-shower` (link to this repo)
       -  `Project for Introduction to Robotics, Unibuc`
       -  Prees to exit - button
-   - How to play: displays a mini description about the game
+    - How to play: displays a mini description about the game
       `The earth is under a meteorite shower and we are the last hope for the humanity! 
        Destroy the meteorites before they hit earth. 
        The  difficulty increases as more enemies are killed. 
