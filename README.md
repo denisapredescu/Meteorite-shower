@@ -44,7 +44,7 @@ To return to the menu, the player must press the joystick button.
 ## Game description :video_game:
 Meteorite shower is a very intuitive and fun to play game: the player need to destroy as many meteorites as he can in order to prevent the meteorites from killing him. :space_invader: </br>
 </br>
- Below it is explained how the difficulty modifies the game:  :nerd_face:</br>
+ Below it is explained how the difficulty modifies the game: :nerd_face:</br>
  
  | Difficulty | LOW ||  MEDIUM || HIGH  ||
  | :---: | :---:  | :---: | :---: | :---: | :---: | :---: |
@@ -85,9 +85,7 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
 
 </details>
   
-  
- ## Used components
-  
+ ## Used components :bricks:
 - Arduino Uno board
 - LCD 
 - 8X8 matrix display
@@ -100,6 +98,35 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
 - cables
 - 2 breadboards
 
+<details><summary><h2>Task Requirements</h2> :page_with_curl: :warning:</summary>
+ 
+ *Menu requirements*:
+ 1. When powering up a game, a greeting message should be shown fora few moments.
+ 2. Main menu:
+  - Start game
+  - Highscore: top 5 values saved in EEPROM
+  - Settings:
+     - Enter name
+     - Difficulty/level
+     - LCD contrast control (optional). Save value to EEPROM.
+     - LCD brightness control. Save value to EEPROM.
+     - Matrix brightness control. Save value to EEPROM.
+     - Sound: on/off. Save value to EEPROM.
+     - Reset highscore
+  - About 
+  - How to play
+ 3. Display on LCD the relevant info while playing the game
+ 4. Display message after game ending for a few moments. After that, display relevant info (such as the player is in top 5)
+ 
+ *Game requirements*: 
+- Minimal components:an LCD, a joystick, a buzzer and the ledmatrix.
+- You must add basic sounds to the game (when ”eating” food, when dying, when finishing the level etc).
+- It must be intuitive and fun to play.
+- It must make sense in the current setup.  
+- The levels must progress dynamically. 
+  
+</details> 
+
 
 <details><summary><h2>Picture of the setup</h2>	:camera: :framed_picture:</summary>
   
@@ -111,7 +138,6 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
 
 ![WhatsApp Image 2022-12-19 at 21 03 47](https://user-images.githubusercontent.com/86727047/208517183-3e1a0495-74b0-4640-8d11-a87666c5642d.jpeg)
 
-  
 </details>
 
 <details><summary><h2>Pictures of the matrix images</h2> :camera_flash: :framed_picture: </summary>
