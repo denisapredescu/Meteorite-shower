@@ -11,7 +11,7 @@ I build it in steps: first it was important to have a moving destroyer (moved by
 
 
 ## How to navigate through the menu
-At first it is displayed a intro message `Meteorite shower` (game name) that is shown for 4s. In this time, on matrix is displayed a "HI" message. After those 4s, the main menu appears and every section of this menu has a different image on matrix):
+At first it is displayed a intro message `Meteorite shower` (game name) that is shown for 4s. In this time, on matrix is displayed a "HI" message. After those 4s, the main menu appears and every section of this menu has a different image on matrix:
 
 - **Start game**
 - **Leaderboard**: appears a list of at most 5 player - score pairs. </br>
@@ -58,9 +58,9 @@ Meteorite shower is a very intuitive and fun to play game: the player need to de
  |<b>Boss fight</b>| - | - | just if the player ends the difficulty low | - | just if the player ends the difficulty medium | for every 30+ killed meteorites |  
  </br>
  
-The difficulty can be seen as a level, so every difficulty end with a boss fight which is harder to beat as difficulty increases (at the first boss, the player has time to shoot it before it comes closer; at the second, the time is less and the third boss - the one which comes repeatedly - is the hardest because every piece of it needs 2 bullets to destroy). </br>
+The difficulty can be seen as a level, so every difficulty end with a boss fight which is harder to beat as difficulty increases (at the first boss, the player has time to shoot it before it comes closer; at the second, the time is less and the third boss - the one which comes repeatedly - is the hardest because every piece of it needs 2 bullets to be destroyed). </br>
 </br>
- While playing, on LCD is displayed the player name (the one he chosed in settings or the dummy name `PLAYR`), the difficulty, the number of lives left and the score. Additionally, in the last step of the game, when the player has the ability to laser shot, appears an 'L' to indicate that the next bullet is a laser. </br>
+While playing, on LCD is displayed the player name (the one he chosed in settings or the dummy name `PLAYR`), the difficulty, the number of lives left and the score. Additionally, in the last step of the game, when the player has the ability to laser shot, appears an 'L' to indicate that the next bullet is a laser. </br>
 </br>
 After the game ends, it's displayed the blinking message `GAME OVER` and the acumulated score for a few seconds and the player sees a sad face on the matrix. If the score is not higher then one from the leaderboard, the message `Your score is not good enought` is shown to inform the player. If the score is top 5 appears a happy face on matrix and firstly the player has to insert a player name in case if he did not do this in settings, secondly if is number 1, he will see the message `You made it! Highest score!` and if is just on top 5 - `You made it! Top 5! :)`. 
 </br>
@@ -88,7 +88,7 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
  ## Used components :bricks:
 - Arduino Uno board
 - LCD 
-- 8X8 matrix display
+- 8X8 led matrix
 - MAX7219 Driver for matrix
 - joystick
 - buzzer
@@ -119,7 +119,7 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
  4. Display message after game ending for a few moments. After that, display relevant info (such as the player is in top 5)
  
  *Game requirements*: 
-- Minimal components:an LCD, a joystick, a buzzer and the ledmatrix.
+- Minimal components:an LCD, a joystick, a buzzer and the led matrix.
 - You must add basic sounds to the game (when ”eating” food, when dying, when finishing the level etc).
 - It must be intuitive and fun to play.
 - It must make sense in the current setup.  
@@ -168,5 +168,5 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
 
 </details>
 
-## Link to video showcasting functionality :video_camera:
+[<h2>Link to video showcasting functionality :video_camera:</h2>](https://www.youtube.com/watch?v=4IV-Ehv1Mmc&t=12s&ab_channel=DenisaPredescu)
 
