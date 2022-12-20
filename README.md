@@ -168,5 +168,5 @@ After the game ends, it's displayed the blinking message `GAME OVER` and the acu
 
 </details>
 
-[<h2>Link to video showcasting functionality :video_camera:</h2>](https://www.youtube.com/watch?v=4IV-Ehv1Mmc&t=12s&ab_channel=DenisaPredescu)
+[**Link to video showcasting functionality :video_camera:**](https://youtu.be/4IV-Ehv1Mmc)
 
