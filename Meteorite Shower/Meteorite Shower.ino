@@ -923,7 +923,7 @@ void loop() {
           lcd.setCursor(1, 0);
           lcd.print("Sound");
           lcd.setCursor(0, 1);
-          lcd.print(">Reset hscore");  // enter in a list of images for menu display
+          lcd.print(">Reset hscore");
 
           lcd.setCursor(15, 0);
           lcd.print("^");
