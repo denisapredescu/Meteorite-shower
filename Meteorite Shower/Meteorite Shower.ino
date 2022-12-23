@@ -138,8 +138,6 @@ byte numberOfMeteoritesLives;
 
 unsigned long generatingMeteoriteTime = 5000;
 unsigned long lastGeneratingMeteoriteTime = 0;
-const unsigned long timeToUpgrade = 30000;  // after 30s the difficulty is starting to change
-unsigned long lastTimeToUpgrade = 0;
 const byte bulletSpeed = 100;
 unsigned long lastBulletMovement = 0;
 
@@ -1026,8 +1024,6 @@ void loop() {
           break;
 
         case 14:  // lcd contrast control
-          // lcd.createChar(0, brightnessBar);
-
           setContrast();
           if (swState == LOW) {  // go back to settings menu to "LCD Contrast" line and save the edited info
             EEPROM.put(3, lcdContrast);
